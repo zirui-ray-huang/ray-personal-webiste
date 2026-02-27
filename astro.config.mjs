@@ -9,7 +9,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://zirui-ray-huang.github.io',
-  base: '/ray-personal-webiste',
+  base: '/',
   integrations: [mdx(), sitemap()],
 
   vite: {
